@@ -1,5 +1,5 @@
 # 📊 AQMO Data Analysis Notebooks
-
+This notebook is distributed under the license: etalab-2.0
 This repository contains a set of Jupyter notebooks to process, analyze, and visualize AQMO air quality data.
 
 To make these notebooks work, you need to have a sub folder called 'Data' in the same folder
