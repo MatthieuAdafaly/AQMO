@@ -1,5 +1,5 @@
 # 📊 AQMO Data Analysis Notebooks
-
+This notebook is distributed under the license: https://www.etalab.gouv.fr/licence-ouverte-open-licence/
 This repository contains a set of Jupyter notebooks to process, analyze, and visualize AQMO air quality data.
 
 To make these notebooks work, you need to have a sub folder called 'Data' in the same folder
@@ -38,6 +38,11 @@ print(dwnld_tag, f"media for metadata '{meta_id}':", rudi_node_info.download_fil
   - **Sensor**
 - Good choice if you're interested in **exploring trends visually**.
 
+When you run this code, a window will open and remain open until you click the "Quit" button. It will display two calendars: one for the start date and one for the end date. The data will be filtered to include only measurements taken between these two dates. You can also select which sensors to include or exclude.
+
+Additionally, you can filter the data using a GeoJSON file. To create this file, first click the "Confirm" button without selecting a GeoJSON file — this will generate the initial map. On the map, use the rectangle tool (the square icon in the top-left corner) to draw a selection area. Then, click the "Export" button (in the top-right corner) to save the rectangle as a GeoJSON file. After that, you can load this file by clicking the "Load Rectangle" button, and then clicking "Confirm" to apply the filter.
+
+Don't forget to click the "Quit" button when you're done — this is necessary to allow the next cell to be activated.
 ---
 
 ### 2B. `Filter_Data.ipynb` + `Data_Exploration.ipynb` (for non-visual, in-depth analysis)
