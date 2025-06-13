@@ -9,10 +9,11 @@ To make these notebooks work, you need to have a sub folder called 'Data' in the
 There are **four main notebooks** in this project:
 
 ### 1. `Data_Import.ipynb` (**required first step**)
-This notebook prepares the dataset by importing and processing raw data into a `.pkl` (pickle) file.  
+This notebook prepares the dataset by importing and processing raw data into a `.pkl` (pickle) file.
+
 **⚠️ Must be run first** before any further analysis or visualization.
 
-If you want, you can download the data without a long processing time by running the code below :
+Or if you want, you can download the data without a long processing time by running the code below :
 
 ```python
 from rudi_node_read.rudi_node_reader import RudiNodeReader
@@ -52,7 +53,10 @@ Don't forget to click the "Quit" button when you're done — this is necessary t
 - Suitable for use cases where:
   - You want **global trends**.
   - You need **faster performance** (no heavy visualization rendering).
-
+  
+The first notebook allows you to filter the data by sensor, date, and more. You must run this code if you want to launch the Data_exploration notebook. You can simply run all cells if you don’t want to make any modifications.
+If you want to make changes, you need to edit the notebook directly.
+After, that you are free to run the second notebook.
 ---
 
 ## 🚀 Workflow Summary
