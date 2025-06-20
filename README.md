@@ -22,11 +22,11 @@ rudi_node_info = RudiNodeReader(server_url=rudi_node_url)
 
 meta_id = '9e64890a-7d31-4ad8-8011-356e0ef2fceb'
 dwnld_tag = 'Downloading'
-dwnld_dir = './data_test'
+dwnld_dir = './Data'
 
 print(dwnld_tag, f"media for metadata '{meta_id}':", rudi_node_info.download_files_for_metadata(meta_id, dwnld_dir))
 ```
-
+You have to unzip the file and put them in Data folder.
 ---
 
 ### 2A. `Mobile_Data_Exploration_With_Map.ipynb` (for interactive map visualization)
