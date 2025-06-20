@@ -1,10 +1,10 @@
-# 📊 AQMO Data Analysis Notebooks
+# AQMO Data Analysis Notebooks
 This notebook is distributed under the license: https://www.etalab.gouv.fr/licence-ouverte-open-licence/
 This repository contains a set of Jupyter notebooks to process, analyze, and visualize AQMO air quality data.
 
 To make these notebooks work, you need to have a sub folder called 'Data' in the same folder
 
-## 🔧 Notebook Overview
+## Notebook Overview
 
 There are **four main notebooks** in this project:
 
@@ -59,7 +59,7 @@ If you want to make changes, you need to edit the notebook directly.
 After, that you are free to run the second notebook.
 ---
 
-## 🚀 Workflow Summary
+## Workflow Summary
 
 | Step | Notebook                          | Description                                                               |
 |------|-----------------------------------|---------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ After, that you are free to run the second notebook.
 
 ---
 
-## 📁 Requirements
+## Requirements
 
 Be sure to install required Python libraries in a virtual environment:
 
